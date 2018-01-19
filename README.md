@@ -15,10 +15,9 @@ npm install --save hash-miner
 ## General Usage:
 
 ```javascript
-const { mine } = require('hash-miner')
-const data =
-	mine({ foo: 'bar' }, 16) >
-	{
+const { mine } = require('hash-miner');
+const data = mine({ foo: 'bar' }, 16);
+{
 		hash: '00008bda8cbf4538a...', // the hex representation of the hash.
 		binary_string: '000000000000000010001...', // the raw binary data as a string
 		nonce: 678732, // the nonce used to get the correct difficulty
@@ -26,7 +25,7 @@ const data =
 		time_ms: 20263, // how long the mining took in miliseconds
 		difficulty: 16, // the required difficulty (number of 0s)
 		data_type: 'object' // the type of the data that was mined
-	}
+}
 ```
 
 ---
