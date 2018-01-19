@@ -55,3 +55,5 @@ function isValidHashDifficulty(hash, difficulty) {
 }
 
 module.exports.mine = mine
+
+console.log(mine('hello', 4))
