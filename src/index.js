@@ -55,4 +55,5 @@ function isValidHashDifficulty(hash, difficulty) {
 }
 
 module.exports.mine = mine
-
+module.exports.hash = hash
+module.exports.isValidHashDifficulty = isValidHashDifficulty
