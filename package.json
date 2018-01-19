@@ -1,0 +1,22 @@
+{
+  "name": "hash-miner",
+  "version": "1.0.0",
+  "description": "A quick library to mine for a hash (SHA-256) with a given difficulty",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nickwanninger/hash-miner-js.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nickwanninger/hash-miner-js/issues"
+  },
+  "homepage": "https://github.com/nickwanninger/hash-miner-js#readme",
+  "dependencies": {
+    "crypto-js": "^3.1.9-1"
+  }
+}
