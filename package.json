@@ -1,6 +1,6 @@
 {
   "name": "hash-miner",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A quick library to mine for a hash (SHA-256) with a given difficulty",
   "main": "src/index.js",
   "scripts": {
